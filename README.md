@@ -2,7 +2,7 @@
 
 # bespoke-active
 
-Keep track of the active slide in [Bespoke.js](http://markdalgleish.com/projects/bespoke.js)
+Keep track of the active slide in [Bespoke.js][bespoke.js]. This plugin is targeted towards plugin developers, not everyday bespoke users looking to make a nice presentation.
 
 ## Download
 
@@ -13,12 +13,14 @@ Download the [production version][min] or the [development version][max], or use
 
 ## Usage
 
-First, include both `bespoke.js` and `bespoke-active.js` in your page.
+First, include `bespoke.js`, `bespoke-convenient.js` and `bespoke-jumpy.js` in your page.
 
-Then, simply include the plugin when instantiating your presentation.
+Then, simply include the plugin when instantiating your presentation - and make sure to insert `convenient: true` and `active: true` before any other plugin that might use active.
+
 
 ```js
 bespoke.horizontal.from('article', {
+  convenient: true,
   active: true
 });
 ```
@@ -41,13 +43,22 @@ The bespoke-active npm package is designed for use with [browserify](http://brow
 
 ```js
 require('bespoke');
+require('bespoke-convenient');
 require('bespoke-active');
 ```
 
+
 ## Credits
 
-This plugin was built with [generator-bespokeplugin](https://github.com/markdalgleish/generator-bespokeplugin).
+[Mark Dalgleish](http://markdalgleish.com/) for [bespoke.js][bespoke.js] and related tools. This plugin was built with [generator-bespokeplugin](https://github.com/markdalgleish/generator-bespokeplugin).
+
+My best friend, [bespoke-convenient](https://github.com/joelpurra/bespoke-convenient), for continued support - rain and shine. I love you, man.
+
 
 ## License
 
-[MIT License](http://en.wikipedia.org/wiki/MIT_License)
+Copyright (c) 2013, [Joel Purra](http://joelpurra.com/) All rights reserved.
+
+When using bespoke-active, comply to the [MIT license](http://joelpurra.mit-license.org/2013). Please see the LICENSE file for details, and the [MIT License on Wikipedia](http://en.wikipedia.org/wiki/MIT_License).
+
+[bespoke.js]: https://github.com/markdalgleish/bespoke.js

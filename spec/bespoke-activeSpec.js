@@ -23,7 +23,13 @@
 
         describe("deck.getActiveSlide and deck.getActiveSlideIndex", function() {
 
-            it("should handle slide 0", function() {
+            it("should be on slide 0 when just having loaded", function() {
+                expect(deck.getActiveSlide()).toBe(deck.slides[0]);
+                expect(deck.getActiveSlideIndex()).toBe(0);
+            });
+
+            it("should handle slide 0 again", function() {
+                deck.slide(0);
                 expect(deck.getActiveSlide()).toBe(deck.slides[0]);
                 expect(deck.getActiveSlideIndex()).toBe(0);
             });
@@ -53,6 +59,13 @@
                 deck.prev();
                 expect(deck.getActiveSlide()).toBe(deck.slides[0]);
                 expect(deck.getActiveSlideIndex()).toBe(0);
+            });
+
+            it("should handle slide 9 then next", function() {
+                deck.slide(9);
+                deck.next();
+                expect(deck.getActiveSlide()).toBe(deck.slides[9]);
+                expect(deck.getActiveSlideIndex()).toBe(9);
             });
         });
     });
