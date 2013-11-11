@@ -25,6 +25,16 @@ bespoke.horizontal.from('article', {
 });
 ```
 
+In your plugin, you can easily check which slide is active.
+
+```js
+// Get the slide object, which is the slide DOM object/element
+var activeSlide = deck.getActiveSlide();
+
+// Get the index, which is the index in deck.slides
+var activeSlideIndex = deck.getActiveSlideIndex();
+```
+
 ## Package managers
 
 ### Bower
