@@ -1,6 +1,6 @@
-[![Build Status](https://secure.travis-ci.org/joelpurra/bespoke-active.png?branch=master)](https://travis-ci.org/joelpurra/bespoke-active)
+[![Build Status](https://secure.travis-ci.org/joelpurra/bespoke-indexfinger.png?branch=master)](https://travis-ci.org/joelpurra/bespoke-indexfinger)
 
-# bespoke-active
+# bespoke-indexfinger
 
 Keep track of the active slide in [Bespoke.js][bespoke.js]. This plugin is targeted towards plugin developers, not everyday bespoke users looking to make a nice presentation.
 
@@ -8,20 +8,20 @@ Keep track of the active slide in [Bespoke.js][bespoke.js]. This plugin is targe
 
 Download the [production version][min] or the [development version][max], or use a [package manager](#package-managers).
 
-[min]: https://raw.github.com/joelpurra/bespoke-active/master/dist/bespoke-active.min.js
-[max]: https://raw.github.com/joelpurra/bespoke-active/master/dist/bespoke-active.js
+[min]: https://raw.github.com/joelpurra/bespoke-indexfinger/master/dist/bespoke-indexfinger.min.js
+[max]: https://raw.github.com/joelpurra/bespoke-indexfinger/master/dist/bespoke-indexfinger.js
 
 ## Usage
 
 First, include `bespoke.js`, `bespoke-convenient.js` and `bespoke-jumpy.js` in your page.
 
-Then, simply include the plugin when instantiating your presentation - and make sure to insert `convenient: true` and `active: true` before any other plugin that might use active.
+Then, simply include the plugin when instantiating your presentation - and make sure to insert `convenient: true` and `indexfinger: true` before any other plugin that might use indexfinger.
 
 
 ```js
 bespoke.horizontal.from('article', {
   convenient: true,
-  active: true
+  indexfinger: true
 });
 ```
 
@@ -40,21 +40,21 @@ var activeSlideIndex = deck.getActiveSlideIndex();
 ### Bower
 
 ```bash
-$ bower install bespoke-active
+$ bower install bespoke-indexfinger
 ```
 
 ### npm
 
 ```bash
-$ npm install bespoke-active
+$ npm install bespoke-indexfinger
 ```
 
-The bespoke-active npm package is designed for use with [browserify](http://browserify.org/), e.g.
+The bespoke-indexfinger npm package is designed for use with [browserify](http://browserify.org/), e.g.
 
 ```js
 require('bespoke');
 require('bespoke-convenient');
-require('bespoke-active');
+require('bespoke-indexfinger');
 ```
 
 
@@ -71,6 +71,6 @@ My best friend, [bespoke-convenient](https://github.com/joelpurra/bespoke-conven
 
 Copyright (c) 2013, [Joel Purra](http://joelpurra.com/) All rights reserved.
 
-When using bespoke-active, comply to the [MIT license](http://joelpurra.mit-license.org/2013). Please see the LICENSE file for details, and the [MIT License on Wikipedia](http://en.wikipedia.org/wiki/MIT_License).
+When using bespoke-indexfinger, comply to the [MIT license](http://joelpurra.mit-license.org/2013). Please see the LICENSE file for details, and the [MIT License on Wikipedia](http://en.wikipedia.org/wiki/MIT_License).
 
 [bespoke.js]: https://github.com/markdalgleish/bespoke.js

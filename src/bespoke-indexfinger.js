@@ -1,10 +1,4 @@
-/*!
- * bespoke-active v0.0.0
- * https://github.com/joelpurra/bespoke-active
- *
- * Copyright 2013, Joel Purra
- * This content is released under the MIT license
- */
+/*global bespoke:true */
 
 (function(bespoke, convenient, ns, pluginName, undefined) {
     "use strict";
@@ -60,4 +54,4 @@
     }
 
     ns[pluginName] = plugin;
-}(bespoke, bespoke.plugins.convenient, bespoke.plugins, "active"));
+}(bespoke, bespoke.plugins.convenient, bespoke.plugins, "indexfinger"));

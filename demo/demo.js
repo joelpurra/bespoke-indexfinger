@@ -5,6 +5,6 @@
 
     bespoke.horizontal.from("article", {
         convenient: true,
-        active: true
+        indexfinger: true
     });
 }(bespoke));

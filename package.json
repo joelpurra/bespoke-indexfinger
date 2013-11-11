@@ -1,17 +1,17 @@
 {
-    "name": "bespoke-active",
+    "name": "bespoke-indexfinger",
     "version": "0.0.0",
     "description": "Keep track of the active slide in Bespoke.js",
-    "homepage": "https://github.com/joelpurra/bespoke-active",
-    "bugs": "https://github.com/joelpurra/bespoke-active/issues",
+    "homepage": "https://github.com/joelpurra/bespoke-indexfinger",
+    "bugs": "https://github.com/joelpurra/bespoke-indexfinger/issues",
     "author": {
         "name": "Joel Purra",
         "url": "https://github.com/joelpurra"
     },
-    "main": "./dist/bespoke-active.js",
+    "main": "./dist/bespoke-indexfinger.js",
     "repository": {
         "type": "git",
-        "url": "git://github.com/joelpurra/bespoke-active.git"
+        "url": "git://github.com/joelpurra/bespoke-indexfinger.git"
     },
     "scripts": {
         "test": "grunt"

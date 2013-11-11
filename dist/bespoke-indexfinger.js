@@ -1,4 +1,10 @@
-/*global bespoke:true */
+/*!
+ * bespoke-indexfinger v0.0.0
+ * https://github.com/joelpurra/bespoke-indexfinger
+ *
+ * Copyright 2013, Joel Purra
+ * This content is released under the MIT license
+ */
 
 (function(bespoke, convenient, ns, pluginName, undefined) {
     "use strict";
@@ -54,4 +60,4 @@
     }
 
     ns[pluginName] = plugin;
-}(bespoke, bespoke.plugins.convenient, bespoke.plugins, "active"));
+}(bespoke, bespoke.plugins.convenient, bespoke.plugins, "indexfinger"));

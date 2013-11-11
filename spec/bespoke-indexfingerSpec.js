@@ -3,7 +3,7 @@
 (function(document, jasmine, bespoke, describe, it, expect, beforeEach, undefined) {
     "use strict";
 
-    describe("bespoke-active", function() {
+    describe("bespoke-indexfinger", function() {
 
         var deck,
 
@@ -15,7 +15,7 @@
 
                 deck = bespoke.from(parent, {
                     convenient: true,
-                    active: true
+                    indexfinger: true
                 });
             };
 
