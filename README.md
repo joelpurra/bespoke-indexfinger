@@ -62,6 +62,8 @@ require('bespoke-active');
 
 [Mark Dalgleish](http://markdalgleish.com/) for [bespoke.js][bespoke.js] and related tools. This plugin was built with [generator-bespokeplugin](https://github.com/markdalgleish/generator-bespokeplugin).
 
+Siemar, [javiersierra on flickr](https://secure.flickr.com/photos/javiersierra/), for his photo [Marcapagina](https://secure.flickr.com/photos/javiersierra/4458644494/) ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)).
+
 My best friend, [bespoke-convenient](https://github.com/joelpurra/bespoke-convenient), for continued support - rain and shine. I love you, man.
 
 
