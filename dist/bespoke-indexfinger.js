@@ -1,5 +1,5 @@
 /*!
- * bespoke-indexfinger v0.1.1
+ * bespoke-indexfinger v0.1.2
  * https://github.com/joelpurra/bespoke-indexfinger
  *
  * Copyright 2013, Joel Purra
