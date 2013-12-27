@@ -15,12 +15,12 @@ Download the [production version][min] or the [development version][max], or use
 
 First, include `bespoke.js`, `bespoke-convenient.js` and `bespoke-jumpy.js` in your page.
 
-Then, simply include the plugin when instantiating your presentation - and make sure to insert `convenient: true` and `indexfinger: true` before any other plugin that might use indexfinger.
+Then, simply include the plugin when instantiating your presentation - and make sure to insert `indexfinger: true` before any other plugin that might use indexfinger.  
+Indexfinger is also compatible with [bespoke-convenient dependency management](https://github.com/joelpurra/bespoke-convenient#dependencies), which might be easier for those using your plugin.
 
 
 ```js
 bespoke.horizontal.from('article', {
-  convenient: true,
   indexfinger: true
 });
 ```
