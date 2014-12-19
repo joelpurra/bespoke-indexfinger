@@ -1,8 +1,12 @@
 {
-    "name": "bespoke-indexfinger",
-    "version": "0.1.2",
-    "dependencies": {
-        "bespoke.js": "~0.3.1",
-        "bespoke-convenient": "~0.3.0"
-    }
+  "name": "bespoke-indexfinger",
+  "version": "1.0.0-alpha.1",
+  "main": "./dist/bespoke-indexfinger.js",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "bespoke.js": "^1.0.0",
+    "bespoke-convenient": "^1.0.0"
+  }
 }

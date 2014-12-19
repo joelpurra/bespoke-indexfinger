@@ -1,4 +1,9 @@
-/*global document:true, jasmine:true, bespoke:true, describe:true, it:true, expect:true, beforeEach:true */
+/*global require:true, document:true, jasmine:true, describe:true, it:true, expect:true, beforeEach:true */
+
+Function.prototype.bind = Function.prototype.bind || require('function-bind');
+
+var bespoke = require('bespoke'),
+    indexfinger = require('../../lib-instrumented/bespoke-indexfinger.js');
 
 (function(document, jasmine, bespoke, describe, it, expect, beforeEach, undefined) {
     "use strict";
@@ -13,9 +18,9 @@
                     parent.appendChild(document.createElement("section"));
                 }
 
-                deck = bespoke.from(parent, {
-                    indexfinger: true
-                });
+                deck = bespoke.from(parent, [
+                    indexfinger()
+                ]);
             };
 
         beforeEach(createDeck);
