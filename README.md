@@ -1,6 +1,8 @@
 [![Build Status](https://secure.travis-ci.org/joelpurra/bespoke-indexfinger.png?branch=master)](https://travis-ci.org/joelpurra/bespoke-indexfinger) [![Coverage Status](https://coveralls.io/repos/joelpurra/bespoke-indexfinger/badge.png)](https://coveralls.io/r/joelpurra/bespoke-indexfinger)
 
-# bespoke-indexfinger
+# [bespoke-indexfinger](https://github.com/joelpurra/bespoke-indexfinger)
+
+**Check out the [presentation/demo.](https://joelpurra.github.io/bespoke-indexfinger/demo/)**
 
 Keep track of the active slide in [Bespoke.js][bespoke.js]. This plugin is targeted towards plugin developers, not everyday bespoke users looking to make a nice presentation.
 
